@@ -1,0 +1,85 @@
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sand-serif;
+}
+
+.navbar {
+    padding: 0 50px 0 0;
+    display: flex;
+    background-color: rgb(221, 61, 61);
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    display: flex;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.navbar a{ 
+    font-size: 24px; 
+    color: white;
+    text-decoration: none;
+}
+
+#welcome-section {
+    background-color: rgb(2, 2, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#projects {
+    background-color: rgb(48, 48, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#projects a {
+    text-decoration: none;
+    color: white;
+}
+#projects h2 {
+    color: white;
+    font-size: 36px;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+    justify-content: center;
+    
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    object-fit: cover;
+    /*flex:25%;*/
+   
+}
+
+.images a {
+    flex-grow: 1;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: grey;
+    
+}
+
+.images img {
+    height: 350px;
+    width: 350px;
+}
